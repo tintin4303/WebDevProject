@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        border: 5px solid gold;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        height: 70vh;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+    }
+
+    .container div {
+        flex-basis: 200px;
+        height: 20px;
+    }
+
+    .red {background-color: red;}
+    .green {background-color: rgb(21, 82, 21);}
+    .blue {background-color: blue;}
+    .purple {background-color: purple;}
+    .yellow {background-color: yellow;}
+</style>
+<body>
+    <div class="container">
+        <div class="red">red</div>
+        <div class="green">green</div>
+        <div class="blue">blue</div>
+        <div class="purple">purple</div>
+        <div class="yellow">yellow</div>
+    </div>
+</body>
+</html>

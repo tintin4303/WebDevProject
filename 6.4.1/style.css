@@ -1,0 +1,14 @@
+body {
+    background-color: burlywood;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: 5px solid azure;
+}
+
+div {
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+}
